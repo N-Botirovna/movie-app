@@ -39,7 +39,7 @@ function SinglePeople() {
     <>
     {
       <>
-      <div className="container flex pr- gap-10  p-4 mx-auto  bg-gray-900 ">
+      <div className="container flex pr- gap-10  p-4 mx-auto  bg-gray-900 h-full ">
       <div className="img-div w-1/5">
         <img className="rounded w-full" src={`https://image.tmdb.org/t/p/w500/${state.data.profile_path}`} alt="img" />
         <div className="flex items-center justify-center gap-5">
